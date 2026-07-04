@@ -128,7 +128,7 @@ function HomePage() {
 
             <div className="lg:col-span-3">
               <Reveal delay={260}>
-                <a href="tel:#" className="glass rounded-2xl p-5 block group">
+                <a href="tel:#" className="bg-white border border-border shadow-soft rounded-2xl p-5 block group">
                   <div className="text-[10px] uppercase tracking-[0.32em] text-primary font-semibold">Talk to a guide</div>
                   <div className="mt-1 font-display text-3xl text-ink">xxx-xxx-xxxx</div>
                   <div className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-ink group-hover:text-primary transition">
