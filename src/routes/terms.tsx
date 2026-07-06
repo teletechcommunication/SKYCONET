@@ -56,7 +56,7 @@ function TermsPage() {
         <p>These terms are governed by the laws of the State of Colorado, without regard to its conflict-of-laws principles.</p>
 
         <h2>11. Contact</h2>
-        <p>For questions about these terms, call <a href="tel:#">xxx-xxx-xxxx</a> or email <a href="mailto:legal@Skyconet.com">legal@Skyconet.com</a>.</p>
+        <p>For questions about these terms, call <a href="tel:+18888719115">(888) 871-9115</a> or email <a href="mailto:legal@Skyconet.com">legal@Skyconet.com</a>.</p>
       </LegalContent>
     </SiteLayout>
   );

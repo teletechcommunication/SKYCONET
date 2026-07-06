@@ -9,8 +9,8 @@ import contactBg from "@/assets/v2-contact-bg.jpg";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Skyconet — Compare Plans & Get Guidance | xxx-xxx-xxxx" },
-      { name: "description", content: "Reach a Skyconet guide for help comparing internet, TV, wireless and home connectivity plans. Call xxx-xxx-xxxx or send a message." },
+      { title: "Contact Skyconet — Compare Plans & Get Guidance | (888) 871-9115" },
+      { name: "description", content: "Reach a Skyconet guide for help comparing internet, TV, wireless and home connectivity plans. Call (888) 871-9115 or send a message." },
       { property: "og:title", content: "Contact Skyconet" },
       { property: "og:description", content: "Consumer-focused connectivity comparisons — call, message or request a callback." },
       { property: "og:url", content: "/contact" },
@@ -45,14 +45,14 @@ function ContactPage() {
                     <Phone className="h-5 w-5" />
                   </div>
                   <span className="mt-8 block text-[11px] tracking-[0.32em] uppercase text-accent font-semibold">Guide line</span>
-                  <a href="tel:#" className="block mt-3 font-display text-5xl sm:text-6xl text-white hover:text-accent transition leading-[0.95]">
-                    xxx-xxx-xxxx
+                  <a href="tel:+18888719115" className="block mt-3 font-display text-5xl sm:text-6xl text-white hover:text-accent transition leading-[0.95]">
+                    (888) 871-9115
                   </a>
                   <p className="mt-6 text-white/70 text-sm leading-relaxed max-w-xs">
                     Real humans · educational comparisons · we never request provider passwords.
                   </p>
                 </div>
-                <a href="tel:#" className="inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 font-semibold hover:bg-white hover:text-primary transition w-fit">
+                <a href="tel:+18888719115" className="inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 font-semibold hover:bg-white hover:text-primary transition w-fit">
                   Call now <Phone className="h-4 w-4" />
                 </a>
               </div>
@@ -139,7 +139,7 @@ function ContactPage() {
                   </form>
                   {zipResult === "checking" && <p className="mt-3 text-xs text-white/80">Checking your area…</p>}
                   {zipResult === "available" && (
-                    <p className="mt-3 text-xs text-white font-semibold">✓ Comparisons available — call xxx-xxx-xxxx to walk through them.</p>
+                    <p className="mt-3 text-xs text-white font-semibold">✓ Comparisons available — call (888) 871-9115 to walk through them.</p>
                   )}
                 </div>
               </div>
@@ -152,7 +152,7 @@ function ContactPage() {
                 </div>
                 <h3 className="mt-5 font-display text-2xl text-ink">Prefer to call?</h3>
                 <p className="mt-2 text-sm text-ink-muted">Skip the form — call our guide line and talk through your options with a real human.</p>
-                <a href="tel:#" className="mt-5 btn-primary w-full"><Phone className="h-4 w-4" /> xxx-xxx-xxxx</a>
+                <a href="tel:+18888719115" className="mt-5 btn-primary w-full"><Phone className="h-4 w-4" /> (888) 871-9115</a>
               </div>
             </Reveal>
           </div>

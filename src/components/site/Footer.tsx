@@ -18,13 +18,13 @@ export function Footer() {
             </h2>
           </div>
           <div className="lg:col-span-4 flex flex-col items-start lg:items-end gap-4">
-            <a href="tel:#" className="group inline-flex items-center gap-4">
+            <a href="tel:+18888719115" className="group inline-flex items-center gap-4">
               <span className="grid place-items-center h-14 w-14 rounded-full bg-accent text-accent-foreground group-hover:scale-110 transition">
                 <Phone className="h-5 w-5" />
               </span>
               <span>
                 <span className="block text-[11px] uppercase tracking-[0.3em] text-primary-foreground/70">Guide line</span>
-                <span className="block font-display text-3xl">xxx-xxx-xxxx</span>
+                <span className="block font-display text-3xl">(888) 871-9115</span>
               </span>
             </a>
             <Link to="/contact" className="inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 font-semibold hover:bg-background hover:text-ink transition">
@@ -76,7 +76,7 @@ export function Footer() {
               <ul className="space-y-4 text-sm">
                 <li className="flex items-start gap-3 text-ink-muted">
                   <Phone className="h-4 w-4 mt-0.5 text-primary shrink-0" />
-                  <a href="tel:#" className="hover:text-ink">xxx-xxx-xxxx</a>
+                  <a href="tel:+18888719115" className="hover:text-ink">(888) 871-9115</a>
                 </li>
                 <li className="flex items-start gap-3 text-ink-muted">
                   <Mail className="h-4 w-4 mt-0.5 text-primary shrink-0" />

@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Skyconet — Compare Internet, TV & Wireless Plans in Your Area" },
-      { name: "description", content: "Explore and compare internet, TV, streaming, wireless and home connectivity options from participating providers. Educational, consumer-focused guidance — call xxx-xxx-xxxx." },
+      { name: "description", content: "Explore and compare internet, TV, streaming, wireless and home connectivity options from participating providers. Educational, consumer-focused guidance — call (888) 871-9115." },
       { property: "og:title", content: "Skyconet — Connectivity Comparison & Information Platform" },
       { property: "og:description", content: "Compare fiber, cable, fixed-wireless, TV, streaming and mobile plans side-by-side. Educational content, no pressure." },
       { property: "og:url", content: "/" },
@@ -128,9 +128,9 @@ function HomePage() {
 
             <div className="lg:col-span-3">
               <Reveal delay={260}>
-                <a href="tel:#" className="bg-white border border-border shadow-soft rounded-2xl p-5 block group">
+                <a href="tel:+18888719115" className="bg-white border border-border shadow-soft rounded-2xl p-5 block group">
                   <div className="text-[10px] uppercase tracking-[0.32em] text-primary font-semibold">Talk to a guide</div>
-                  <div className="mt-1 font-display text-3xl text-ink">xxx-xxx-xxxx</div>
+                  <div className="mt-1 font-display text-3xl text-ink">(888) 871-9115</div>
                   <div className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-ink group-hover:text-primary transition">
                     <Phone className="h-4 w-4" /> Tap to call
                   </div>
@@ -562,7 +562,7 @@ function HomePage() {
                 <p className="mt-5 text-ink-muted leading-relaxed">
                   Quick answers to what shoppers most often ask before exploring plan comparisons.
                 </p>
-                <a href="tel:#" className="mt-7 inline-flex items-center gap-2 rounded-full border border-ink bg-transparent px-5 py-3 font-semibold text-ink hover:bg-ink hover:text-background transition">
+                <a href="tel:+18888719115" className="mt-7 inline-flex items-center gap-2 rounded-full border border-ink bg-transparent px-5 py-3 font-semibold text-ink hover:bg-ink hover:text-background transition">
                   <HelpCircle className="h-4 w-4" /> Still have a question?
                 </a>
               </div>
@@ -602,8 +602,8 @@ function HomePage() {
                   Plug in your ZIP to view internet, TV, streaming and wireless options from participating providers — paired with educational guides so the choice is yours to own.
                 </p>
                 <div className="mt-10 flex flex-wrap gap-3">
-                  <a href="tel:#" className="btn-accent">
-                    <Phone className="h-4 w-4" /> xxx-xxx-xxxx
+                  <a href="tel:+18888719115" className="btn-accent">
+                    <Phone className="h-4 w-4" /> (888) 871-9115
                   </a>
                   <Link to="/contact" className="inline-flex items-center justify-center gap-2 rounded-full border border-primary-foreground/40 px-7 py-3.5 font-semibold text-primary-foreground hover:bg-primary-foreground hover:text-primary transition">
                     Request a callback <ArrowRight className="h-4 w-4" />

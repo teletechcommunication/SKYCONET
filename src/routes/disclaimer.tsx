@@ -53,7 +53,7 @@ function DisclaimerPage() {
         <p>We may update this Disclaimer from time to time. The most recent version will always be posted on this page. Continued use of the website following any update constitutes acceptance of the revised terms.</p>
 
         <h2>10. Contact</h2>
-        <p>If you have any questions about this Disclaimer, please contact us at support@Skyconet.com or xxx-xxx-xxxx.</p>
+        <p>If you have any questions about this Disclaimer, please contact us at support@Skyconet.com or <a href="tel:+18888719115">(888) 871-9115</a>.</p>
       </LegalContent>
     </SiteLayout>
   );

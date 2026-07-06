@@ -136,7 +136,7 @@ function InternetServicesPage() {
               </div>
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="tel:#" className="btn-accent"><Phone className="h-4 w-4" /> Talk to a guide</a>
+              <a href="tel:+18888719115" className="btn-accent"><Phone className="h-4 w-4" /> Talk to a guide</a>
               <Link to="/contact" className="inline-flex items-center gap-2 rounded-full border border-white/40 px-7 py-3.5 font-semibold text-white hover:bg-white hover:text-primary transition">Compare in my ZIP <ArrowRight className="h-4 w-4" /></Link>
             </div>
           </div>

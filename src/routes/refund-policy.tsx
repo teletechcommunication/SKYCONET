@@ -50,7 +50,7 @@ function RefundPolicyPage() {
         </ul>
 
         <h2>5. How to Request a Refund</h2>
-        <p>To request a refund, email us at <a href="mailto:support@Skyconet.com">support@Skyconet.com</a> or call <a href="tel:#">xxx-xxx-xxxx</a> with your name, date of purchase, and reason for the request. We aim to respond within 2 business days.</p>
+        <p>To request a refund, email us at <a href="mailto:support@Skyconet.com">support@Skyconet.com</a> or call <a href="tel:+18888719115">(888) 871-9115</a> with your name, date of purchase, and reason for the request. We aim to respond within 2 business days.</p>
 
         <h2>6. Processing Time</h2>
         <p>Approved refunds are processed to the original payment method within 5 to 10 business days. Depending on your bank or card issuer, it may take an additional 3 to 5 business days for the funds to appear in your account.</p>
@@ -62,7 +62,7 @@ function RefundPolicyPage() {
         <p>We may update this Refund Policy from time to time. Changes take effect immediately upon posting to this page with an updated date. We encourage you to review this page periodically.</p>
 
         <h2>9. Contact</h2>
-        <p>For questions about this Refund Policy, reach us at <a href="mailto:support@Skyconet.com">support@Skyconet.com</a> or call <a href="tel:#">xxx-xxx-xxxx</a>.</p>
+        <p>For questions about this Refund Policy, reach us at <a href="mailto:support@Skyconet.com">support@Skyconet.com</a> or call <a href="tel:+18888719115">(888) 871-9115</a>.</p>
       </LegalContent>
     </SiteLayout>
   );

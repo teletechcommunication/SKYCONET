@@ -158,7 +158,7 @@ function LearningCenterPage() {
             </div>
           </div>
           <div className="flex gap-3">
-            <a href="tel:#" className="btn-primary"><Phone className="h-4 w-4" /> xxx-xxx-xxxx</a>
+            <a href="tel:+18888719115" className="btn-primary"><Phone className="h-4 w-4" /> (888) 871-9115</a>
             <Link to="/internet-services" className="btn-ghost">See internet plans <ArrowRight className="h-4 w-4" /></Link>
           </div>
         </div>

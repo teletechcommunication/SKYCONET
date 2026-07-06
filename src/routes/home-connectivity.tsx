@@ -97,7 +97,7 @@ function HomeConnectivityPage() {
               <h2 className="mt-5 font-display text-3xl sm:text-4xl text-ink leading-tight">Need a second opinion on your setup?</h2>
               <p className="mt-4 text-ink-muted leading-relaxed">Tell a guide what's connected and where the dead zones are — we'll point you to the right resources.</p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <a href="tel:#" className="btn-primary"><Phone className="h-4 w-4" /> xxx-xxx-xxxx</a>
+                <a href="tel:+18888719115" className="btn-primary"><Phone className="h-4 w-4" /> (888) 871-9115</a>
                 <Link to="/contact" className="btn-ghost">Send a message <ArrowRight className="h-4 w-4" /></Link>
               </div>
             </div>

@@ -61,20 +61,20 @@ export function Navbar() {
 
             <div className="hidden md:flex items-center gap-3">
               <a
-                href="tel:#"
-                className="hidden 2xl:inline-flex items-center gap-2 text-sm font-medium text-ink hover:text-primary transition"
+                href="tel:+18888719115"
+                className="inline-flex items-center gap-2 text-sm font-medium text-ink hover:text-primary transition"
               >
-                <Phone className="h-3.5 w-3.5" /> xxx-xxx-xxxx
+                <Phone className="h-3.5 w-3.5" /> (888) 871-9115
               </a>
-              <Link
-                to="/contact"
+              <a
+                href="tel:+18888719115"
                 className="group inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground pl-5 pr-2 py-2 text-sm font-semibold hover:bg-primary hover:text-primary-foreground transition-all"
               >
-                Compare Plans
+                Call Now
                 <span className="grid place-items-center h-7 w-7 rounded-full bg-primary text-white group-hover:bg-accent group-hover:text-accent-foreground transition">
-                  <ArrowUpRight className="h-3.5 w-3.5" />
+                  <Phone className="h-3.5 w-3.5" />
                 </span>
-              </Link>
+              </a>
             </div>
 
             <button
@@ -87,7 +87,7 @@ export function Navbar() {
           </nav>
 
           {open && (
-            <div className="xl:hidden pb-5 pt-1 animate-fade-in">
+            <div className="xl:hidden pb-5 pt-1 px-2 animate-fade-in bg-white border-t border-border shadow-lg rounded-b-2xl">
               <ul className="flex flex-col divide-y divide-border">
                 {links.map((l) => (
                   <li key={l.to}>
@@ -98,8 +98,8 @@ export function Navbar() {
                   </li>
                 ))}
               </ul>
-              <a href="tel:#" className="mt-4 flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 font-semibold text-primary-foreground">
-                <Phone className="h-4 w-4" /> xxx-xxx-xxxx
+              <a href="tel:+18888719115" className="mt-4 flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 font-semibold text-primary-foreground">
+                <Phone className="h-4 w-4" /> (888) 871-9115
               </a>
             </div>
           )}

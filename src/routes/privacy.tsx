@@ -50,7 +50,7 @@ function PrivacyPage() {
         <p>We may update this policy periodically. Material changes will be communicated by email and posted on this page with a new "last updated" date.</p>
 
         <h2>9. Contact</h2>
-        <p>Questions? Call <a href="tel:#">xxx-xxx-xxxx</a> or email <a href="mailto:privacy@Skyconet.com">privacy@Skyconet.com</a>.</p>
+        <p>Questions? Call <a href="tel:+18888719115">(888) 871-9115</a> or email <a href="mailto:privacy@Skyconet.com">privacy@Skyconet.com</a>.</p>
       </LegalContent>
     </SiteLayout>
   );
